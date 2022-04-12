@@ -48,7 +48,7 @@ public class Month_Year {
 	else {
 		
 		System.out.println("\n Please enter Valid Number between 1 to 12");
-		month = sc.nextInt();
+		
 }
     
 	}
