@@ -15,7 +15,7 @@ public class Lucky_num {
 		
 		while(lucky != guess) {
 		if(guess > lucky) {
-			System.out.println("You guessed it high!!Number of guess:" +count + "\n Try a new Guess " );
+			System.out.println("You guessed it high!!Number of attempt:" +count + "\n Try a new Guess " );
 			guess=sc.nextInt();
 		}
 		
