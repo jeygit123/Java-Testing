@@ -12,8 +12,10 @@ public class ElectricBill {
 	            amt = 50 * 200 + (u - 500) * 1.00;
 	        }
 	        
-	        else {
+	        else if(u>1001){
 	            amt = 50 * u + 1.25 * 300 + (u - 500) * 0.75;
+	        }else {
+	        	System.out.println("No of units cannot be less than 50");
 	        }
 	        return amt;
 	    }
